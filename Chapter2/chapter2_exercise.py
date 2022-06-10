@@ -20,6 +20,6 @@ final_sec=(easy_sec+tempo_sec)-60
 final_min=easy_min+tempo_min+1
 reach_min=52+final_min-60
 reach_hour=6+1
-print("Reaching home at "+str(reach_hour)+":"+str(reach_min))
+print("Reaching home at "+str(reach_hour)+":"+str(reach_min)+ " am")
 
 
