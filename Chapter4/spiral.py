@@ -10,8 +10,8 @@ def draw_spiral(t, n, length=3, a=0.1, b=0.0002):
       b: how loosly coiled the spiral is (larger is looser)
     http://en.wikipedia.org/wiki/Spiral
     """
-    theta = 0.0
 
+    theta = 0.0
     for i in range(n):
         t.fd(length)
         dtheta = 1 / (a + b * theta)
