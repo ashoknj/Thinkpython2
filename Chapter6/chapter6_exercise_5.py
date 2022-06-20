@@ -51,7 +51,22 @@ def gcf(a,b):
     else:
         return gcf(b,a%b)
 
-print(gcf(9,24))  #3
+# Python code to demonstrate naive
+# method to compute gcd ( Euclidean algo )
+ 
+def computeGCD(x, y):
+    while(y):
+       x, y = y, x % y
+    return abs(x)
+ 
+a = 60
+b = 48
+ 
+# prints 12
+#print ("The gcd of 60 and 48 is : ",end="")
+#print (computeGCD(60, 48))
+print (computeGCD(9, 24))
+#print(gcf(9,24))  #3
 #print(gcf(12,105))  #3
 #print(gcf(6,32))  #2
 #print(gcf(16,52))  #4

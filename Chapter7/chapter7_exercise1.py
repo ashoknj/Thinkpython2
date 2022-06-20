@@ -1,0 +1,31 @@
+import math
+from chapter7_practice  import squareroot
+#print(squareroot(25,5))
+#print(int(1/2))
+mysqrt=squareroot(2,1)
+mathsqrt=math.sqrt(2)
+print(2)
+print(mysqrt)
+print(mathsqrt)
+print(mathsqrt-mysqrt)
+
+mysqrt=squareroot(3,2)
+mathsqrt=math.sqrt(3)
+print(3)
+print(mysqrt)
+print(mathsqrt)
+print(mathsqrt-mysqrt)
+
+mysqrt=squareroot(4,2)
+mathsqrt=math.sqrt(4)
+print(4)
+print(mysqrt)
+print(mathsqrt)
+print(mathsqrt-mysqrt
+)
+mysqrt=squareroot(5,2)
+mathsqrt=math.sqrt(5)
+print(5)
+print(mysqrt)
+print(mathsqrt)
+print(mathsqrt-mysqrt)
